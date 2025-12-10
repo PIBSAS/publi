@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
 env:
-  PRIVATE_REPO_NAME: "nombredeseado" # EDITAR
+  PRIVATE_REPO_NAME: "priv" # EDITAR
   PRIVATE_TEX_FOLDER: "tex" # NO EDITAR esto sería para reutilizar en otros proyectos
   MATHJAX_URL: "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js" # Cada cierto tiempo actualizar si se quiere tener la ultima version de mathjax
   
